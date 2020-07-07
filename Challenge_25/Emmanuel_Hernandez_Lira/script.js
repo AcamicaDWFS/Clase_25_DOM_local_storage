@@ -10,5 +10,3 @@ toggle.addEventListener("click", () => {
     document.body.style.overflowY = "visible";
   }
 });
-
-console.log("Hello, World!");
