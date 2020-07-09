@@ -7,13 +7,13 @@ menuList.append(newItem);
 
 // Agrega una negrita a una sola palabra dentro de tu párrafo.
 const p = document.querySelector("p");
-const text = p.innerText.split(" ");
+let text = p.innerText.split(" ");
 
 const pos = Math.floor(Math.random() * text.length);
 text[pos] = `<b>${text[pos]}</b>`;
-const newText = text.join(" ");
+text = text.join(" ");
 
-p.innerHTML = newText;
+p.innerHTML = text;
 
 /* Luego de 10 segundos cambia la imágen. Intercala entre al menos 2 imágenes
  * diferentes.
