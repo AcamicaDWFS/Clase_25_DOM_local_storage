@@ -5,6 +5,7 @@ Dentro del directorio cargar el o los archivos de la solución al ejercicio Prog
 
 # Agregar ítem
 Agrega un nuevo ítem al menú de navegación desde Javascript.  
+![Test Image 3](/assets/images/programan1.png)
 
 # Agregar negrita
 Agrega una negrita a una sola palabra dentro de tu párrafo.  
